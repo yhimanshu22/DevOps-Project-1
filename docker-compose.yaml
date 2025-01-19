@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    build: ./
+    image: 'yhimanshu075/devops-project-1-web:latest'
     ports:
       - "8000:8000"
